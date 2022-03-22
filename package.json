@@ -12,6 +12,7 @@
     "keywords": [],
     "license": "ISC",
     "devDependencies": {
+        "@faker-js/faker": "^6.0.0",
         "@types/faker": "^6.6.9",
         "@types/jest": "^27.4.1",
         "@types/node": "13.13.5",
