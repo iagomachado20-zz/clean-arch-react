@@ -12,6 +12,7 @@
     "keywords": [],
     "license": "ISC",
     "devDependencies": {
+        "@types/faker": "^6.6.9",
         "@types/jest": "^27.4.1",
         "@types/node": "13.13.5",
         "@typescript-eslint/eslint-plugin": "2.31.0",
@@ -20,6 +21,7 @@
         "eslint-plugin-import": "2.20.2",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-standard": "4.0.1",
+        "faker": "^6.6.6",
         "git-commit-msg-linter": "2.4.2",
         "husky": "^7.0.4",
         "jest": "^27.5.1",
