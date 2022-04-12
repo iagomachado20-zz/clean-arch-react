@@ -1,0 +1,18 @@
+@import '@/presentation/scss/_styles';
+
+.inputForm {
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    border: 1px solid #c2c2c2;
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+}
+
+.inputWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

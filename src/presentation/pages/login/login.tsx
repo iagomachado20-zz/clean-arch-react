@@ -2,7 +2,8 @@ import React from 'react';
 import Styles from './login-style.scss';
 import { 
     Header,
-    Footer
+    Footer,
+    Input
 } from '@/presentation/components';
 
 const Login: React.FC = () => {
@@ -13,10 +14,9 @@ const Login: React.FC = () => {
                 <h2>Login</h2>
                 <div className="form-group">
 
-                    <input className={Styles.inputForm} type="email" name="email" id="email" placeholder="Digite seu e-mail"/>
-                    <input className={Styles.inputForm} type="password" name="password" id="password" placeholder="Digite sua senha"/>
-
-                    <button className={Styles.btn}>Enviar</button>
+                    <Input type="email" name="email" placeholder="Digite seu e-mail" />
+                    <Input type="password" name="password" placeholder="Insira sua senha"/>
+                    <button type="button" className={Styles.btn}>Enviar</button>
 
                 </div>
                

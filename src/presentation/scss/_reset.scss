@@ -1,3 +1,5 @@
+@import './global';
+
 * {
     font-family: $font;
     font-size: 14px;
@@ -11,3 +13,37 @@ body {
     background: $light;
     font-weight: 400;
 }
+
+@for $i from 1 through $space {
+    .mb-#{$i} {
+      margin-bottom: $space * $i + px;
+    }
+    .mt-#{$i} {
+        margin-top: $space * $i + px;
+    }
+    .ml-#{$i} {
+        margin-left: $space * $i + px;
+    }
+    .mr-#{$i} {
+        margin-right: $space * $i + px;
+    }
+    .m-#{$i} {
+        margin: $space * $i + px;
+    }
+    .pb-#{$i} {
+        padding-bottom: $space * $i + px;
+    }
+    .pt-#{$i} {
+        padding-top: $space * $i + px;
+    }
+    .pl-#{$i} {
+        padding-left: $space * $i + px;
+    }
+    .pr-#{$i} {
+        padding-right: $space * $i + px;
+    }
+    .p-#{$i} {
+        padding: $space * $i + px;
+    }     
+}
+  
