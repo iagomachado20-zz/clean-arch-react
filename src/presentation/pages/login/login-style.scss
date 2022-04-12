@@ -6,11 +6,6 @@
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
-    .footer {
-        background: $primary;
-        width: 100%;
-        display: flex;
-    }
     .form {
         max-width: 500px;
         margin: 0 auto;
@@ -25,9 +20,6 @@
             font-size: 2rem;
             margin-bottom: 10px;
         }
-    }
-    .footer {
-        height: 48px;
     }
 }
 

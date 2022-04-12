@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './login-style.scss';
 import Header from '@/presentation/components/Header/Header';
+import Footer from '@/presentation/components/Footer/Footer';
 
 const Login: React.FC = () => {
     return (
@@ -18,7 +19,7 @@ const Login: React.FC = () => {
                 </div>
                
             </form>
-            <footer className={Styles.footer}></footer>
+            <Footer/>
         </div>
     )
 };
