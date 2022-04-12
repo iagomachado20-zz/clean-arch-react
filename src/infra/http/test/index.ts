@@ -1,1 +1,1 @@
-import * from './axios';
+import * as axios from './axios';

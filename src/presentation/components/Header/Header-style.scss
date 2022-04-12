@@ -1,0 +1,12 @@
+@import '@/presentation/scss/_styles';
+
+.header {
+    background: $primary;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    border-top: 40px solid $primaryDark;
+    color: #fff;
+    font-size: 16px;
+}
