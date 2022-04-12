@@ -1,7 +1,9 @@
 import React from 'react';
 import Styles from './login-style.scss';
-import Header from '@/presentation/components/Header/Header';
-import Footer from '@/presentation/components/Footer/Footer';
+import { 
+    Header,
+    Footer
+} from '@/presentation/components';
 
 const Login: React.FC = () => {
     return (
