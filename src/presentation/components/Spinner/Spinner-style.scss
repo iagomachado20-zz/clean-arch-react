@@ -1,0 +1,28 @@
+@import '@/presentation/scss/_styles';
+
+.spinner {
+   width: 30px;
+   height: 30px;
+   display: grid;
+   margin: $space + px;
+   animation: spinner-plncf9 4s infinite;
+   &:after, &:before {
+      content: "";
+      grid-area: 1/1;
+      border: 5px solid;
+      border-radius: 50%;
+      border-color: #ff4747 #ff4747 #0000 #0000;
+      mix-blend-mode: darken;
+      animation: spinner-plncf9 1s infinite linear;
+   }  
+   &:after {
+      border-color: #0000 #0000 #dbdcef #dbdcef;
+      animation-direction: reverse;
+   }
+}
+ 
+@keyframes spinner-plncf9 {
+   100% {
+      transform: rotate(1turn);
+   }
+}
