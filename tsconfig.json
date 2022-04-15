@@ -6,7 +6,7 @@
             "dom.iterable",
             "esnext"
         ],
-        "esModuleInterop": false,
+        "esModuleInterop": true,
         "module": "esnext",
         "moduleResolution": "node",
         "jsx": "react",

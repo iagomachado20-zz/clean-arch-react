@@ -10,7 +10,7 @@ module.exports = {
         '.+\\.(ts|tsx)$': 'ts-jest'
     },
     moduleNameMapper: {
-        '@/(.*)': '<rootDir>/src/$1',
-        '\\.scss$': 'identity-object-proxy'
-    }
+        '\\.(jpg|jpeg|png|gif|webp|svg|css|scss)$': 'identity-obj-proxy'
+    },
+    testEnvironment: "jsdom"
 }
