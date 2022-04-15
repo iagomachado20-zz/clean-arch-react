@@ -7,8 +7,9 @@
     height: 100vh;
     justify-content: space-between;
     .form {
-        max-width: 500px;
+        max-width: 400px;
         margin: 0 auto;
+        text-align: center;
         width: 100%;
         background: #fff;
         box-shadow: 3px 3px 3px black;
@@ -19,6 +20,9 @@
         > h2 {
             font-size: 2rem;
             margin-bottom: 10px;
+        }
+        .btn {
+            width: 100%;
         }
     }
 }
